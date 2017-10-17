@@ -1,0 +1,8 @@
+E:\workspace\DiamondEdge\DE.IDP\bin\Debug\netcoreapp1.1\DE.IDP.deps.json
+E:\workspace\DiamondEdge\DE.IDP\bin\Debug\netcoreapp1.1\DE.IDP.runtimeconfig.json
+E:\workspace\DiamondEdge\DE.IDP\bin\Debug\netcoreapp1.1\DE.IDP.runtimeconfig.dev.json
+E:\workspace\DiamondEdge\DE.IDP\bin\Debug\netcoreapp1.1\DE.IDP.dll
+E:\workspace\DiamondEdge\DE.IDP\bin\Debug\netcoreapp1.1\DE.IDP.pdb
+E:\workspace\DiamondEdge\DE.IDP\obj\Debug\netcoreapp1.1\DE.IDP.AssemblyInfo.cs
+E:\workspace\DiamondEdge\DE.IDP\obj\Debug\netcoreapp1.1\DE.IDP.dll
+E:\workspace\DiamondEdge\DE.IDP\obj\Debug\netcoreapp1.1\DE.IDP.pdb
