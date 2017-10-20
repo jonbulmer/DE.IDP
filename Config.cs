@@ -11,8 +11,8 @@ namespace DE.IDP
     public class Config
     {
         public static List<TestUser> GetUsers()
-        {
-            return new List<TestUser>
+           {
+               return new List<TestUser>
                {
                    new TestUser
                    {
@@ -35,12 +35,11 @@ namespace DE.IDP
                            new Claim("given_name", "Claire"),
                            new Claim("family_name", "Underwood"),
                         }
-                   }
+                   }                   
                };
-        }
+           }
 
-
-        public static IEnumerable<Client> GetClients()
+         public static IEnumerable<Client> GetClients()
         {
             return new List<Client>()
                {
