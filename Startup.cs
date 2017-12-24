@@ -20,13 +20,15 @@ namespace DE.IDP
             services.AddMvc();
 
             services.AddIdentityServer()
-                .AddTemporarySigningCredential()
+                .AddDeveloperSigningCredential()
                 .AddTestUsers(Config.GetUsers())
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryClients(Config.GetClients());
         }
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,
+            ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole();
             loggerFactory.AddDebug();
@@ -35,8 +37,12 @@ namespace DE.IDP
             {
                 app.UseDeveloperExceptionPage();
             }
+ 
+            app.UseStaticFiles();
 
             app.UseIdentityServer();
+
+            app.UseMvcWithDefaultRoute();
            
         }
     }
